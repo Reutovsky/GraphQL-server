@@ -1,0 +1,30 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reutovsky/GraphQL-server.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Express"
+  ],
+  "author": "Dmitry Ivanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reutovsky/GraphQL-server/issues"
+  },
+  "homepage": "https://github.com/Reutovsky/GraphQL-server#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "nodemon": "^1.18.7"
+  }
+}
